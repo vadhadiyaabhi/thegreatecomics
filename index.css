@@ -1,0 +1,103 @@
+/* media queries to make responsible on different plateform */
+
+@media screen and (min-width: 993px)
+{
+    .container
+    {
+        width: 50%;
+    }
+}
+@media screen and (min-width: 768px)
+{
+    .container
+    {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 767px)
+{
+    .container
+    {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 360px)
+{
+    .container
+    {
+        width: 100%;
+    }
+}
+
+
+html
+{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100%;
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    /* justify-content: center; */
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+}
+
+.title>h2
+{
+    color: rgb(88, 146, 255);
+}
+
+
+.container>form>input[type='text']
+{
+    width: 92%;
+    padding: 10px 12px;
+    border: 1px solid rgb(135, 167, 255);
+    border-radius: 5px;
+    margin: 5px 0px 20px 0px;
+}
+
+
+input[type='submit']
+{
+    padding: 8px 12px;
+    font-size: medium;
+    border: 1px solid blue;
+    border-radius: 5px;
+    background-color: rgb(88, 155, 255);
+    color: white;
+    width: 100px;
+}
+
+input[type='submit']:hover
+{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+}
+input[type='submit']:active
+{
+    background-color: white;
+    color: red;
+    cursor: pointer;
+}
+
+h3
+{
+    color: rgb(88, 146, 255);
+}
+
+
+
